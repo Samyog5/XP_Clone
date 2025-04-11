@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samyog Clones -- XP</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/preset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" type="image/png" href="logogo.png" sizes="16x16">
+</head>
+<body>
+    <div class="container flex-1 flex column nowrap">
+        <div class="main-top flex-1 flex row nowrap">
+            <img src="assets/media/logo.png" class="main-top-logo" />
+            <div class="flex column gap-sml p-sml" style="height: calc(100vh - 40px); flex-wrap: wrap;">
+                <button class="main-top-button flex column nowrap justify-center align-center gap-sml" onclick="openWindow('aboutWindow')">
+                    <img src="assets/media/icons/pc.ico" height="45px" width="45px" />
+                    <p class="fs-4 fw-4 c-light">About</p>
+                </button>
+                <button class="main-top-button flex column nowrap justify-center align-center gap-sml" onclick="openWindow('Profile')">
+                    <img src="assets/media/icons/cm.ico" height="45px" width="45px" />
+                    <p class="fs-4 fw-4 c-light">Profile</p>
+                </button>
+                <button class="main-top-button flex column nowrap justify-center align-center gap-sml" onclick="openWindow('profileWindow')">
+                    <img src="assets/media/icons/cp.ico" height="45px" width="45px" />
+                    <p class="fs-4 fw-4 c-light">Education</p>
+                </button>
+            </a>
+            <a class="main-top-button flex column nowrap justify-center align-center gap-sml" href="https://www.linkedin.com/in/samyog-budahthoki-a82306344/">
+                <img src="assets/media/icons/link.ico" height="45px" width="45px" />
+                <p class="fs-4 fw-4 c-light">Linkedin</p>
+            </a>
+                <a class="main-top-button flex column nowrap justify-center align-center gap-sml" href="https://t.me/samyog5">
+    <img src="assets/media/icons/tg.ico" height="45px" width="45px" />
+    <p class="fs-4 fw-4 c-light">Telegram</p>
+                </a>
+                <a class="main-top-button flex column nowrap justify-center align-center gap-sml" href="https://samyog-budhathoki.com.np/">
+                    <img src="assets/media/icons/ie.ico" height="45px" width="45px" />
+                    <p class="fs-4 fw-4 c-light">Explorer</p>
+                </a>
+            </div>
+            <div id="aboutWindow" class="window flex column nowrap p-tin active">
+                <div id="aboutWindowHeader" class="window-top flex row nowrap justify-between align-center p-sml">
+                    <div class="flex row nowrap align-center gap-sml">
+                        <img src="assets/media/icons/pc.ico" height="25px" width="25px" />
+                        <p class="fs-4 fw-2 c-light">About</p>
+                    </div>
+                    <div class="flex row nowrap gap-tin">
+                        <button type="button" title="minimize"><img src="assets/media/buttons/minimize.png" height="30px" width="30px" onclick="minimizeWindow('aboutWindow')" /></button>
+                        <button type="button" title="maximize"><img src="assets/media/buttons/maximize.png" height="30px" width="30px" onclick="maximizeWindow('aboutWindow')" /></button>
+                        <button type="button" title="close"><img src="assets/media/buttons/close.png" height="30px" width="30px" onclick="closeWindow('aboutWindow')" /></button>
+                    </div>
+                </div>
+                
+                <div class="window-bottom flex-1">
+                    <div class="flex row-responsive nowrap justify-center align-center">
+                        <div class="flex-1 flex nowrap justify-center align-center p-mid">
+                            <img src="assets/media/logo.png" height="200px" width="200px" />
+                        </div>
+                        <main class="flex-1 p-mid">
+                            <article class="flex column nowrap gap-mid">
+                                <h1 class="fs-1 fw-1 c-dark">Samyog Budahthoki</h1>
+                                <p class="fs-3 fw-2 c-dark">Windows XP Legend</p>
+                            </article>
+                        </main>
+                    </div>
+                    <p class="fs-4 c-dark p-big">Student at NCIT, Pokhar University</p>
+                </div>
+            </div>
+            <div id="Profile" class="window flex column nowrap p-tin">
+                <div class="window-top flex row nowrap justify-between align-center p-sml">
+                    <div class="flex row nowrap align-center gap-sml">
+                        <img src="assets/media/icons/cm.ico" height="25px" width="25px" />
+                        <p class="fs-4 fw-2 c-light">Profile</p>
+                    </div>
+                    <div class="flex row nowrap gap-tin">
+                        <button type="button" title="minimize"><img src="assets/media/buttons/minimize.png" height="30px" width="30px" onclick="minimizeWindow('Profile')" /></button>
+                        <button type="button" title="maximize"><img src="assets/media/buttons/maximize.png" height="30px" width="30px" onclick="maximizeWindow('Profile')" /></button>
+                        <button type="button" title="close"><img src="assets/media/buttons/close.png" height="30px" width="30px" onclick="closeWindow('Profile')" /></button>
+                    </div>
+                </div>
+                <div class="window-bottom flex-1">
+                    <div class="flex row-responsive nowrap justify-center align-center">
+                        <div class="flex-1 flex nowrap justify-center align-center p-mid">
+                            <img src="assets/media/logo.png" height="200px" width="200px" />
+                        </div>
+                        <main class="flex-1 p-mid">
+                            <article class="flex column nowrap gap-mid">
+                                <h1 class="fs-1 fw-1 c-dark">Cloned By Samyog Budahthoki</h1>
+                                <p class="fs-3 fw-2 c-dark">Windows XP clone</p>
+                            </article>
+                        </main>
+                    </div>
+                    <p class="fs-4 c-dark p-big">Memorizing The legend XP all time...........</p>
+                </div>
+            </div>
+            <div id="profileWindow" class="window flex column nowrap p-tin">
+                <div class="window-top flex row nowrap justify-between align-center p-sml">
+                    <div class="flex row nowrap align-center gap-sml">
+                        <img src="assets/media/icons/cp.ico" height="25px" width="25px" />
+                        <p class="fs-4 fw-2 c-light">Education</p>
+                    </div>
+                    <div class="flex row nowrap gap-tin">
+                        <button type="button" title="minimize"><img src="assets/media/buttons/minimize.png" height="30px" width="30px" onclick="minimizeWindow('profileWindow')" /></button>
+                        <button type="button" title="maximize"><img src="assets/media/buttons/maximize.png" height="30px" width="30px" onclick="maximizeWindow('profileWindow')" /></button>
+                        <button type="button" title="close"><img src="assets/media/buttons/close.png" height="30px" width="30px" onclick="closeWindow('profileWindow')" /></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-bottom flex row nowrap">
+            <button type="button" id="startMenuToggle" class="start-button" onclick="toggleStartMenu()"></button>
+            <div class="flex row nowrap py-tin px-mid w-100">
+                <button id="aboutWindowTab" class="main-bottom-tab flex row nowrap align-center gap-sml p-sml" onclick="tabClick('aboutWindow')">
+                    <img src="assets/media/icons/pc.ico" height="20px" width="20px" />
+                    <p class="flex-1 fs-5 fw-4 c-light">About</p>
+                </button>
+                <button id="ProfileTab" class="main-bottom-tab flex row nowrap align-center gap-sml p-sml" onclick="tabClick('Profile')">
+                    <img src="assets/media/icons/cm.ico" height="20px" width="20px" />
+                    <p class="flex-1 fs-5 fw-4 c-light">Profile</p>
+                </button>
+                <button id="profileWindowTab" class="main-bottom-tab flex row nowrap align-center gap-sml p-sml" onclick="tabClick('profileWindow')">
+                    <img src="assets/media/icons/cp.ico" height="20px" width="20px" />
+                    <p class="flex-1 fs-5 fw-4 c-light">Information</p>
+                </button>
+            </div>
+            <div id="startMenu" class="start-menu flex column nowrap">
+                <div class="start-menu-top flex row nowrap align-center gap-sml p-sml">
+                    <img src="assets/media/avatar.png" />
+                    <p class="fs-3 fw-2 c-light">Samyog Clones</p>
+                </div>
+                <div class="start-menu-middle flex-1 flex row nowrap">
+                    <div class="start-menu-middle-left flex-1 flex column nowrap">
+                        <button href="#" class="start-menu-middle-button flex row nowrap align-center gap-mid p-mid" onclick="openWindow('aboutWindow')">
+                            <img src="assets/media/icons/pc.ico" height="40px" width="40px" />
+                            <p class="flex-1 c-dark">About</p>
+                        </button>
+                        <button href="#" class="start-menu-middle-button flex row nowrap align-center gap-mid p-mid" onclick="openWindow('Profile')">
+                            <img src="assets/media/icons/cm.ico" height="40px" width="40px" />
+                            <p class="flex-1 c-dark">Profile</p>
+                        </button>
+                        <button href="#" class="start-menu-middle-button flex row nowrap align-center gap-mid p-mid" onclick="openWindow('profileWindow')">
+                            <img src="assets/media/icons/cp.ico" height="40px" width="40px" />
+                            <p class="flex-1 c-dark">Education</p>
+                        </button>
+                        <a href="https://t.me/samyog5" target="_blank" class="start-menu-middle-button flex row nowrap align-center gap-mid p-mid">
+                            <img src="assets/media/icons/tg.ico" height="40px" width="40px" />
+                            <p class="flex-1 c-dark">Telegram</p>
+                        </a>
+                    </div>
+                    <div class="start-menu-middle-right flex column nowrap">
+                        <div>
+                            <a href="https://samyog-budhathoki.com.np/">
+                                <button href="#" class="start-menu-middle-button flex row nowrap align-center gap-mid p-mid" >
+                                <img src="assets/media/icons/ie.ico" height="40px" width="40px" />
+                                <p class="flex-1 c-dark">Explorer</p>
+                                </button>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/samyog-budahthoki-a82306344/" target="_blank">
+                                <button href="#" class="start-menu-middle-button flex row nowrap align-center gap-mid p-mid">
+                                    <img src="assets/media/icons/link.ico" height="40px" width="40px" />
+                                    <p class="flex-1 c-dark">Linkedin</p>
+                                </button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="start-menu-bottom flex row nowrap justify-end gap-mid p-mid">
+                    <a href="#" target="_blank" class="flex row nowrap align-center gap-tin">
+                        <img src="assets/media/buttons/lock.png" height="30px" width="30px" />
+                        <p class="fs-4 fw-4 c-light">Log Off</p>
+                    </a>
+                    <a href="shutdown.html" target="_blank" class="flex row nowrap align-center gap-tin">
+                        <img src="assets/media/buttons/power.png" height="30px" width="30px" />
+                        <p class="fs-4 fw-4 c-light">Turn Off Computer</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+
+</html>
